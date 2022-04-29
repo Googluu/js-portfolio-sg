@@ -1,10 +1,11 @@
 {
-  "name": "js-portfolio",
+  "name": "js-portfolio-sgr",
   "version": "1.0.0",
   "description": "A minimal portfolio with Vanilla JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -15,10 +16,18 @@
     "html",
     "css"
   ],
-  "author": "oscar barajas <oscar@gndx.dev>",
+  "author": "Sneyder <sneyder.h.rodriguez@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gndx/js-portfolio/issues"
   },
-  "homepage": "https://github.com/gndx/js-portfolio#readme"
+  "homepage": "https://github.com/gndx/js-portfolio#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/plugin-transform-runtime": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "babel-loader": "^8.2.5",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
 }
