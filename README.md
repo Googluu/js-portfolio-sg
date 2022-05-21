@@ -1,1 +1,1 @@
-# js-portfolio-sg
+# js-portfolio
